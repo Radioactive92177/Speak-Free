@@ -14,22 +14,17 @@
   .navbar-brand .highlight {
     color: orangered; }
 
-#trending {
-  background: #e0e0e0;
-  font-size: 1em; }
-  #trending a {
-    text-decoration: none;
-    color: black; }
-    #trending a h1 {
-      font-family: "Staatliches", cursive; }
-  #trending a:hover {
-    color: orangered; }
-  #trending #trending1 h1 {
-    font-size: 4em;
-    margin-bottom: 1em; }
-  #trending .trending_other {
-    margin-left: 1em; }
-    #trending .trending_other h1 {
-      margin-bottom: 1.2em; }
+.trending_Hash{
+  display: inline-block;
+  margin-right: 10px;
+}
+.trending_Hash a{
+  color: orangered;
+  text-decoration: none;
+}
+.trending_Hash a:hover{
+  color: black;
+}
+
 
 /*# sourceMappingURL=style.css.map */
