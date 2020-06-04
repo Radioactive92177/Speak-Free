@@ -1,3 +1,35 @@
+.navbar {
+  background: black;
+  box-shadow: 0px 1px 10px 1px #818181;
+  font-family: "Staatliches", cursive; }
+  .navbar .btn {
+    border-color: orangered;
+    color: orangered; }
 
+.navbar-brand {
+  font-family: "Bungee Inline", cursive;
+  font-size: 1.5em; }
+  .navbar-brand .fa {
+    color: orangered; }
+  .navbar-brand .highlight {
+    color: orangered; }
+
+#trending {
+  background: #e0e0e0;
+  font-size: 1em; }
+  #trending a {
+    text-decoration: none;
+    color: black; }
+    #trending a h1 {
+      font-family: "Staatliches", cursive; }
+  #trending a:hover {
+    color: orangered; }
+  #trending #trending1 h1 {
+    font-size: 4em;
+    margin-bottom: 1em; }
+  #trending .trending_other {
+    margin-left: 1em; }
+    #trending .trending_other h1 {
+      margin-bottom: 1.2em; }
 
 /*# sourceMappingURL=style.css.map */
