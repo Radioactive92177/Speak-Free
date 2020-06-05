@@ -1,46 +1,112 @@
 .navbar {
   background: black;
-  box-shadow: 0px 1px 10px 1px rgb(129, 129, 129);
+  box-shadow: 0px 1px 10px 1px #818181;
   font-family: "Staatliches", cursive;
-  .btn {
-    border-color: orangered;
-    color: orangered;
-  }
+}
+.navbar .btn {
+  border-color: orangered;
+  color: orangered;
 }
 
 .navbar-brand {
   font-family: "Bungee Inline", cursive;
   font-size: 1.5em;
-  .fa {
-    color: orangered;
-  }
-  .highlight {
-    color: orangered;
+}
+.navbar-brand .fa {
+  color: orangered;
+}
+.navbar-brand .highlight {
+  color: orangered;
+}
+
+.trendingContainer {
+  margin-top: 80px;
+  height: fit-content;
+
+  #trendingDashboard {
+    background: #e8e8e8;
+    height: fit-content;
+
+    #dashboardHeader {
+      h1 {
+        font-size: 5em;
+        font-family: "Staatliches";
+        text-align: center;
+      }
+    }
+    #trendingTopic1 {
+      .card {
+        width: 100%;
+      }
+      .card-title {
+        font-size: 2.4em;
+      }
+      .card-text {
+        font-size: 0.8em;
+      }
+      .btn {
+        border: 1px solid black;
+        background: black;
+        color: white;
+        font-size: 0.8em;
+      }
+    }
+    .Hashtrend {
+      h2 {
+        font-family: "Staatliches";
+        text-align: center;
+      }
+      .trending_Hash {
+        display: inline-block;
+        margin-right: 10px;
+      }
+      .trending_Hash a {
+        color: orangered;
+        text-decoration: none;
+        h5 {
+          font-size: 1.5em;
+          font-weight: bold;
+        }
+      }
+      .trending_Hash a:hover {
+        color: black;
+      }
+    }
+    #trendingTopic2 {
+      .card {
+        width: 100%;
+      }
+      .card-title {
+        font-size: 1.8em;
+      }
+      .card-text {
+        font-size: 0.6em;
+      }
+      .btn {
+        border: 1px solid black;
+        background: black;
+        color: white;
+        font-size: 0.6em;
+      }
+    }
+    #trendingTopic3 {
+      .card {
+        width: 100%;
+      }
+      .card-title {
+        font-size: 1.2em;
+      }
+      .card-text {
+        font-size: 0.6em;
+      }
+      .btn {
+        border: 1px solid black;
+        background: black;
+        color: white;
+        font-size: 10px;
+      }
+    }
   }
 }
-#trending {
-    background: rgb(224, 224, 224);
-    font-size: 1em;
-  a {
-    text-decoration: none;
-    h1 {
-      font-family: "Staatliches", cursive;
-    }
-    color: black;
-  }
-  a:hover {
-    color: orangered;
-  }
-  #trending1 {
-    h1 {
-      font-size: 4em;
-      margin-bottom: 1em;
-    }
-  }
-  .trending_other {
-      margin-left: 1em;
-    h1 {
-        margin-bottom: 1.2em;
-    }
-  }
-}
+
+/*# sourceMappingURL=style.css.map */
