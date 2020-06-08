@@ -22,91 +22,51 @@
 .trendingContainer {
   margin-top: 80px;
   height: fit-content;
+  background: none;
 
   #trendingDashboard {
     background: #e8e8e8;
     height: fit-content;
+    padding: 0px;
+    background: none;
 
     #dashboardHeader {
       h1 {
-        font-size: 5em;
+        font-size: 3.5em;
         font-family: "Staatliches";
         text-align: center;
-      }
-    }
-    #trendingTopic1 {
-      .card {
-        width: 100%;
-      }
-      .card-title {
-        font-size: 2.4em;
-      }
-      .card-text {
-        font-size: 0.8em;
-      }
-      .btn {
-        border: 1px solid black;
-        background: black;
-        color: white;
-        font-size: 0.8em;
-      }
-    }
-    .Hashtrend {
-      h2 {
-        font-family: "Staatliches";
-        text-align: center;
-      }
-      .trending_Hash {
-        display: inline-block;
-        margin-right: 10px;
-      }
-      .trending_Hash a {
-        color: orangered;
-        text-decoration: none;
-        h5 {
-          font-size: 1.5em;
-          font-weight: bold;
-        }
-      }
-      .trending_Hash a:hover {
-        color: black;
-      }
-    }
-    #trendingTopic2 {
-      .card {
-        width: 100%;
-      }
-      .card-title {
-        font-size: 1.8em;
-      }
-      .card-text {
-        font-size: 0.6em;
-      }
-      .btn {
-        border: 1px solid black;
-        background: black;
-        color: white;
-        font-size: 0.6em;
-      }
-    }
-    #trendingTopic3 {
-      .card {
-        width: 100%;
-      }
-      .card-title {
-        font-size: 1.2em;
-      }
-      .card-text {
-        font-size: 0.6em;
-      }
-      .btn {
-        border: 1px solid black;
-        background: black;
-        color: white;
-        font-size: 10px;
       }
     }
   }
 }
-
+.Hashtrend {
+  background: black;
+  height: fit-content;
+  padding: 0;
+  h2 {
+    font-family: "Staatliches";
+    text-align: center;
+    color: white;
+    padding: 0;
+  }
+  .trending_Hash {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0;
+  }
+  .trending_Hash a {
+    color: orangered;
+    text-decoration: none;
+    padding: 0;
+    h5 {
+      font-size: 1.5em;
+      
+      padding: 0;
+      font-family: "Staatliches";
+    }
+  }
+  .trending_Hash a:hover {
+    color: rgb(245, 118, 118);
+  }
+}
 /*# sourceMappingURL=style.css.map */
