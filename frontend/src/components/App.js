@@ -1,29 +1,30 @@
-import React, { Component } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-export class App extends Component {
-  state = {
-    posts: [],
-  };
+const App = () => {
+  const [posts, setPosts] = useState([]);
 
-  loadData = async () => {
+  const loadData = async () => {
     const { data } = await axios.get(
       "https://jsonplaceholder.typicode.com/posts"
     );
-    this.setState({ posts: data });
-    console.log(this.state.posts.map((data) => console.log(data.title)));
+    setPosts(data);
   };
 
-  componentDidMount() {
-    this.loadData();
-  }
-  render() {
+  useEffect(() => {
+    loadData();
+  });
+
+  const renderPosts = posts.map((post) => {
     return (
       <>
-        <h1>HHHH</h1>
+        <h1>{post.title}</h1>
+        <p>{post.body}</p>
       </>
     );
-  }
-}
+  });
+
+  return <>{renderPosts}</>;
+};
 
 export default App;
